@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="demo">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./lib/vendor.js"></script>
+    <link rel="stylesheet" type="text/scss" href="./app/scss/test">
+    <script src="app.js"></script>
+</head>
+<body>
+        <a ui-sref="hello" ui-sref-active="active">Hello</a>
+        <a ui-sref="about" ui-sref-active="active">About</a>
+        <div class="content">
+            <ui-view></ui-view>
+        </div>
+</body>
+</html>
